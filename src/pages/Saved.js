@@ -4,6 +4,7 @@ import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API"
 import Card from "../components/Card";
 import SavedBookDetail from "../components/SavedBookDetail";
+import Nav from "../components/Nav"
 
 
 class Saved extends Component {
@@ -34,8 +35,9 @@ class Saved extends Component {
 
 
     render(){
-        return(
+        return( 
             <Container fluid>
+            
             <Row fluid>
                 <Col size="12">
                     <Jumbotron>
